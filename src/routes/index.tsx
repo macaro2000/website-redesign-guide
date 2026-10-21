@@ -53,7 +53,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-function MaybeLink({ href, children }: { href?: string; children: ReactNode }) {
+function MaybeLink({ href, children }: { href?: string | undefined; children: ReactNode }) {
   if (!href) return <>{children}</>;
   return (
     <a href={href} target="_blank" rel="noreferrer" className="cv-link">
