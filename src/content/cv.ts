@@ -246,7 +246,7 @@ export const boards: Group[] = [
       { title: "College Art Association", href: "http://www.collegeart.org/" },
       { title: "Native American Art Studies Association", href: "http://www.nativearts.org/" },
       { title: "Native American and Indigenous Studies Association" },
-      { title: "Aboriginal Curatorial Collective", href: "http://www.aboriginalcuratorialcollective.org/" },
+      { title: "Indigenous Curatorial Collective", href: "https://icca.art/" },
     ],
   },
 ];
@@ -256,7 +256,6 @@ export const sections = [
   { id: "education", label: "Education" },
   { id: "curating", label: "Curating" },
   { id: "teaching", label: "Teaching" },
-  { id: "syllabi", label: "Syllabi" },
   { id: "publications", label: "Publications" },
   { id: "interviews", label: "Interviews" },
   { id: "lectures", label: "Lectures, Conferences & Exhibitions" },

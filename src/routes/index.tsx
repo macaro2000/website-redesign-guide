@@ -11,7 +11,6 @@ import {
   person,
   publications,
   sections,
-  syllabi,
   teaching,
   type Entry,
   type Group,
@@ -118,9 +117,6 @@ function Index() {
   return (
     <div className="mx-auto max-w-6xl px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-16 lg:px-10">
       <aside className="cv-nav">
-        <a href="#about" className="block font-medium tracking-tight text-foreground">
-          Mario A. Caro
-        </a>
         <nav aria-label="Sections" className="cv-nav-list">
           {sections.map((s) => (
             <a key={s.id} href={`#${s.id}`} className="cv-nav-link">
@@ -135,8 +131,7 @@ function Index() {
 
       <main className="pb-32">
         <section id="about" className="cv-section pt-16 lg:pt-28">
-          <p className="cv-eyebrow">Curriculum Vitae</p>
-          <h1 className="mt-4 text-4xl font-light tracking-tight text-foreground md:text-5xl">
+          <h1 className="text-4xl font-light tracking-tight text-foreground md:text-5xl">
             Mario A. Caro
           </h1>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground">{person.bio}</p>
@@ -164,7 +159,6 @@ function Index() {
         <Section id="education" title="Education"><List entries={education} /></Section>
         <Section id="curating" title="Curating"><List entries={curating} /></Section>
         <Section id="teaching" title="Teaching"><List entries={teaching} /></Section>
-        <Section id="syllabi" title="Syllabi"><Groups groups={syllabi} /></Section>
         <Section id="publications" title="Publications"><Groups groups={publications} /></Section>
         <Section id="interviews" title="Interviews"><List entries={interviews} /></Section>
         <Section id="lectures" title="Lectures, Conferences & Exhibitions">
