@@ -40,17 +40,37 @@ export const education: Entry[] = [
   { date: "1992", title: "Bachelor of Arts in Art History, Hunter College, City University of New York" },
 ];
 
+export const executive: Entry[] = [
+  { date: "2021–Present", title: "Director of MFA in Studio Arts Program", italic: true, detail: "Institute of American Indian Arts" },
+  { date: "2019–2020", title: "Interim Director/Curator", italic: true, detail: "Longhouse Education and Cultural Center" },
+  { date: "2015–2016", title: "Associate Director", italic: true, detail: "American Indian Program, Cornell University" },
+  { date: "2008–2015", title: "President", italic: true, detail: "Res Artis: Worldwide Network of Art Residencies" },
+];
+
 export const curating: Entry[] = [
-  { date: "4/13–6/30/2019", title: "Joe David — Tla-Kish-Wha-Toa — Stands With Chiefs", italic: true, detail: "Evergreen Gallery, Olympia, Washington", img: IMG + "JoeDavid_E_250.jpg", imgAlt: "Joe David exhibition poster" },
-  { date: "2/25–3/22/2019", title: "NW Legacy: Prints from the Collection of Paul Nicholson and Helen Carlson", italic: true, detail: "Evergreen Gallery, Olympia, Washington", img: IMG + "NWLegacy_Poster%20OL.jpg", imgAlt: "NW Legacy exhibition poster" },
-  { date: "10/26–12/15/2018", title: "Teachings of the Tree People", italic: true, detail: "Evergreen Gallery, Olympia, Washington", img: IMG + "TreePeople_E-Invitation.jpg", imgAlt: "Teachings of the Tree People invitation" },
-  { date: "8/26–12/10/2017", title: "Tears of Duk’WibahL", italic: true, detail: "Evergreen Gallery, Olympia, Washington", img: IMG + "small%20poster.jpg", imgAlt: "Tears of Duk’WibahL poster" },
-  { date: "2008–2009", title: "Alaska House, New York", italic: true, detail: "Soho, New York City", img: IMG + "AHNY_Logo_72dpi_RGB.jpg", imgAlt: "Alaska House New York logo" },
+  { date: "10/6–11/2/2024", title: "HeARTbeat of Turtle Island: NDN Radical Imagination", italic: true, detail: "American Indian Center, Chicago", note: "Curated exhibition featuring NDN Radical Imagination 2022 awardees." },
+  { date: "5/6–11/2/2023", title: "Beyond Mastery: IAIA MFA in Studio Arts Thesis Exhibition 2023", italic: true, detail: "Container and Coe Center, Santa Fe, NM", note: "Exhibition featuring the work of the MFA class of 2023." },
+  { date: "7/30–10/15/2019", title: "Ancestral Women, Contemporary Voices: Art from the Great Lakes", italic: true, detail: "Evergreen Gallery, Olympia, Washington", note: "Hosted and modified a traveling exhibition featuring art representing the twelve Native tribes in Wisconsin, adding works by artists from the region now living in Washington State." },
+  { date: "4/13–6/30/2019", title: "Joe David — Tla-Kish-Wha-Toa — Stands With Chiefs", italic: true, detail: "Evergreen Gallery, Olympia, Washington", note: "Curated solo exhibition of Joe David, a master Nuu-chah-nulth sculptor who engages current socio-ecological conditions by using traditional forms.", img: IMG + "JoeDavid_E_250.jpg", imgAlt: "Joe David exhibition poster" },
+  { date: "1/21–3/29/2019", title: "Northwest Legacy: A Selection of Prints from the Paul Nicholson and Helen Carlson Collection", italic: true, detail: "Evergreen State College, Olympia, Washington", note: "Curated an exhibition of prints exemplifying Northwest traditional abstraction.", img: IMG + "NWLegacy_Poster%20OL.jpg", imgAlt: "NW Legacy exhibition poster" },
+  { date: "10/26–12/15/2018", title: "Teachings of the Tree People", italic: true, detail: "Evergreen Gallery, Olympia, Washington", note: "Curated an exhibition of contemporary fiber arts by 57 Native artists from the Pacific Rim.", img: IMG + "TreePeople_E-Invitation.jpg", imgAlt: "Teachings of the Tree People invitation" },
+  { date: "8/26–12/10/2017", title: "Tears of Duk’WibahL", italic: true, detail: "Evergreen Gallery, Olympia, Washington", note: "Co-curated, with Linley Logan, an exhibition of contemporary art by Native American, Alaska Native, Native Hawaiian, First Nations, and Māori artists.", img: IMG + "small%20poster.jpg", imgAlt: "Tears of Duk’WibahL poster" },
+  { date: "2008–2009", title: "Alaska House, New York", italic: true, detail: "109 Mercer St., Soho, New York City", note: "Curator of Contemporary Indigenous Arts at a gallery dedicated to Alaska Native arts.", img: IMG + "AHNY_Logo_72dpi_RGB.jpg", imgAlt: "Alaska House New York logo" },
+  { date: "3/30/2007", title: "James Luna, Fire, Movement, Water and Voices", italic: true, detail: "34th Annual Meeting of the Midwest Art History Society, Indianapolis", note: "Collaborated in the programming of work by performance artist James Luna." },
+  { date: "11/12–12/8/2006", title: "What Comes Naturally: Bruce Cook and Anna Hoover", italic: true, detail: "Daybreak Star, Seattle, Washington", note: "Curated an exhibition of contemporary Indigenous art." },
+  { date: "2/9/2006", title: "Wood, Paper, Glass", italic: true, detail: "Squaxin Island Museum, Shelton, Washington", note: "Co-curated an exhibition of Indigenous art from Ford Foundation workshops." },
+  { date: "5/23–29/2005", title: "Ford Foundation Printmaking Workshop with Melanie Yazzie", italic: true, detail: "Longhouse Education and Cultural Center, Olympia, Washington", note: "Assisted with programming and execution of workshop for Indigenous artists." },
+  { date: "4/17/2004", title: "Indigenous Cinema: Native Women and Filmmaking", italic: true, detail: "Santa Barbara Museum of Art", note: "Curated film program and moderated panel discussion addressing issues relevant to contemporary Native women filmmakers." },
+  { date: "4/8–5/3/2003", title: "Colonial Visions", italic: true, detail: "The Evergreen State College", note: "Curated exhibition featuring installations by Karen K. Kosasa and Marie Watt." },
+  { date: "3/26/2003", title: "Hitéemlkiliiksix “Within the Circle of the Rim”: Nations Gathering on Common Ground", italic: true, detail: "City University of New York, New York City", note: "Installed exhibition." },
+  { date: "2002–2004", title: "Hitéemlkiliiksix “Within the Circle of the Rim”: Nations Gathering on Common Ground", italic: true, detail: "Traveling exhibition", note: "Co-curated traveling exhibition featuring seventy-one artists from the Pacific Rim, which toured venues across the U.S. and ended its tour in New Zealand/Aotearoa." },
 ];
 
 export const teaching: Entry[] = [
-  { date: "2017–Present", title: "Massachusetts Institute of Technology", href: "http://act.mit.edu/people/lecturers/mario-a-caro/", detail: "Lecturer in Art, Culture, and Technology Graduate Program" },
-  { date: "2011–2014", title: "John W. Draper Interdisciplinary Program in Humanities and Social Thought, New York University", href: "http://draper.as.nyu.edu/", detail: "Assistant Professor / Fellow" },
+  { date: "2021–Present", title: "Institute of American Indian Arts, Santa Fe, NM", detail: "Professor of Indigenous Cultural Analysis" },
+  { date: "2017–2022", title: "Massachusetts Institute of Technology", href: "http://act.mit.edu/people/lecturers/mario-a-caro/", detail: "Lecturer in Art, Culture, and Technology Graduate Program" },
+  { date: "2017–2018", title: "Santa Clara University, Santa Clara, CA", detail: "Lecturer in Art History" },
+  { date: "2011–2014", title: "John W. Draper Interdisciplinary Program in Humanities and Social Thought, New York University", href: "http://draper.as.nyu.edu/", detail: "Assistant Professor / Fellow teaching contemporary art theory and criticism" },
   { date: "Spring 2011", title: "Massachusetts Institute of Technology", href: "http://act.mit.edu/people/lecturers/mario-a-caro/", detail: "Lecturer in Art, Culture, and Technology Graduate Program" },
   { date: "2009–2011", title: "The City University of New York", href: "http://www.cuny.edu/", detail: "Lecturer in Art History" },
   { date: "2005–2007", title: "Indiana University–Purdue University, Indianapolis", href: "http://www.iupui.edu/", detail: "Public Scholar of Contemporary Art, Art History and Museum Studies" },
@@ -93,6 +113,9 @@ export const publications: Group[] = [
   {
     heading: "Author",
     entries: [
+      { date: "2025", title: "“Indexicality as Kinship: The Relationality of Native Photography.”", detail: "In Indigenous Identities: Here. Ed. Jaune Quick-to-See Smith. New Brunswick: Zimmerli Art Museum, 2025." },
+      { date: "2025", title: "“The Venice Indigenous Arts School.”", detail: "In Jeffrey Gibson: The Space in Which to Place Me. Ed. Abigail Winograd and Christian Ayne Crouch. New York, Portland, Hudson, Santa Fe, Annandale-on-Hudson: DelMonico Books, Portland Art Museum, BIG NDN Press, SITE Santa Fe, Bard Center for Indigenous Studies, 2025." },
+      { date: "2024", title: "先住民の現代アートの到来！ (Contemporary Indigenous Art Has Arrived!)", detail: "Contemporary Art by Indigenous Peoples, Bijutsu Techo 76, no. 1102 (2024): 134–145." },
       { date: "Forthcoming", title: "“Visualizing Resistance: Reflections on Depictions of the Standing Rock Water Protector Movement.”", detail: "In Visualizing Genocide: Indigenous Interventions in Art, Archives and Museums. Ed. Yve Chavez and Nancy Marie Mithlo. New York: Routledge." },
       { date: "2019", title: "“What Shall We Do with the Bodies? Reconsidering the Archive in the Aftermath of Fraud.”", href: "https://www.academia.edu/61899261/What_Shall_We_Do_with_the_Bodies_Reconsidering_the_Archive_in_the_Aftermath_of_Fraud", detail: "American Indian Culture and Research Journal (2019) 43 (4): 1–8.", img: IMG + "AICRJ.jpg", imgAlt: "American Indian Culture and Research Journal cover" },
       { date: "2019", title: "“The Returning Tide.”", href: "https://www.academia.edu/42835561/_The_Returning_Tide._In_Tears_of_Duk_WibahL_Internationial_Gathering_of_Indigenous_Visual_Artists_of_the_Pacific_Rim._Eds._Mario_A._Caro_Tina_Kuckkahn-Miller_and_Laura_VerMeullen_Olympia_WA_House_of_Welcome_Publishing_2019", detail: "In Tears of Duk’WibahL: International Gathering of Indigenous Visual Artists of the Pacific Rim. Eds. Mario A. Caro, Tina Kuckkahn-Miller, and Laura VerMeulen. Olympia, WA: House of Welcome Publishing, 2019.", img: IMG + "Tears.jpg", imgAlt: "Tears of Duk’WibahL book cover" },
@@ -113,6 +136,7 @@ export const publications: Group[] = [
   {
     heading: "Editor",
     entries: [
+      { date: "Forthcoming", title: "Contemporary Native American Art", italic: true, detail: "Eds. Jaune Quick-to-See Smith, Neal Ambrose-Smith, and Mario A. Caro. Thames & Hudson (World of Art series)." },
       { date: "Forthcoming", title: "Essentially Indigenous? Native Arts, Perspectives, and Provocations", italic: true, detail: "Ed. Mario A. Caro and Kathleen Ash-Milby. Smithsonian and School for Advanced Research." },
       { date: "2008", title: "It’s in Our Forms: Selected Interviews with Northwest Native Carvers", italic: true, detail: "Ed. Mario A. Caro. Olympia: House of Welcome Publishing, 2008.", img: IMG + "carvers2.jpg", imgAlt: "It’s in Our Forms book cover" },
       { date: "2006", title: "Cultural Luminaries: Illuminating the Past, Lighting the Way into the Future", italic: true, href: "http://www.evergreen.edu/longhouse/catalogs.htm", detail: "Eds. Mario A. Caro, Tina Kuckkahn, and Esmé Ryan. Olympia, Washington: House of Welcome Publishing, 2006.", img: IMG + "cultural.jpg", imgAlt: "Cultural Luminaries catalogue cover" },
@@ -234,9 +258,10 @@ export const boards: Group[] = [
   {
     heading: "Board Memberships",
     entries: [
+      { title: "Indigenous Curatorial Collective", href: "https://icca.art/", detail: "Board of Directors" },
+      { title: "Res Artis", href: "http://www.resartis.org/", detail: "Board of Directors; Honorary Board Member. A worldwide network of artist residencies." },
+      { title: "First Light Alaska", href: "http://firstlightalaska.com/", detail: "Board of Directors. Non-profit promoting Alaska Native scholars and international Indigenous arts." },
       { title: "Longhouse Education and Cultural Center", href: "http://www.evergreen.edu/longhouse/", detail: "Advisory Board" },
-      { title: "Res Artis", href: "http://www.resartis.org/", detail: "Board of Directors, Honorary Member and Past President" },
-      { title: "First Light Alaska", href: "http://firstlightalaska.com/", detail: "Board of Directors" },
     ],
   },
   {
@@ -246,14 +271,17 @@ export const boards: Group[] = [
       { title: "College Art Association", href: "http://www.collegeart.org/" },
       { title: "Native American Art Studies Association", href: "http://www.nativearts.org/" },
       { title: "Native American and Indigenous Studies Association" },
-      { title: "Indigenous Curatorial Collective", href: "https://icca.art/" },
     ],
   },
 ];
 
+export const languages =
+  "Fluent in Spanish; reading knowledge of French, Dutch, and German. Learning Japanese.";
+
 export const sections = [
   { id: "about", label: "About" },
   { id: "education", label: "Education" },
+  { id: "executive", label: "Executive" },
   { id: "curating", label: "Curating" },
   { id: "teaching", label: "Teaching" },
   { id: "publications", label: "Publications" },
@@ -261,4 +289,5 @@ export const sections = [
   { id: "lectures", label: "Lectures, Conferences & Exhibitions" },
   { id: "fellowships", label: "Fellowships" },
   { id: "boards", label: "Boards & Memberships" },
+  { id: "languages", label: "Languages" },
 ] as const;

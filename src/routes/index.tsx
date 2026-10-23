@@ -5,9 +5,11 @@ import {
   conferences,
   curating,
   education,
+  executive,
   exhibitionsLectures,
   fellowships,
   interviews,
+  languages,
   person,
   publications,
   sections,
@@ -157,6 +159,7 @@ function Index() {
         </section>
 
         <Section id="education" title="Education"><List entries={education} /></Section>
+        <Section id="executive" title="Executive"><List entries={executive} /></Section>
         <Section id="curating" title="Curating"><List entries={curating} /></Section>
         <Section id="teaching" title="Teaching"><List entries={teaching} /></Section>
         <Section id="publications" title="Publications"><Groups groups={publications} /></Section>
@@ -171,6 +174,9 @@ function Index() {
         </Section>
         <Section id="fellowships" title="Fellowships & Awards"><List entries={fellowships} /></Section>
         <Section id="boards" title="Boards & Memberships"><Groups groups={boards} /></Section>
+        <Section id="languages" title="Languages">
+          <p className="max-w-2xl text-foreground">{languages}</p>
+        </Section>
 
         <footer className="mt-24 border-t border-border pt-8 text-sm text-muted-foreground">
           <a href={`mailto:${person.email}`} className="cv-link">{person.email}</a>
