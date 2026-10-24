@@ -113,7 +113,7 @@ export const publications: Group[] = [
   {
     heading: "Author",
     entries: [
-      { date: "2025", title: "“Indexicality as Kinship: The Relationality of Native Photography.”", detail: "In Indigenous Identities: Here. Ed. Jaune Quick-to-See Smith. New Brunswick: Zimmerli Art Museum, 2025." },
+      { date: "2025", title: "“Indexicality as Kinship: The Relationality of Native Photography.”", detail: "In Indigenous Identities: Here, Now & Always. Ed. Jaune Quick-to-See Smith. New Brunswick: Zimmerli Art Museum, 2025." },
       { date: "2025", title: "“The Venice Indigenous Arts School.”", detail: "In Jeffrey Gibson: The Space in Which to Place Me. Ed. Abigail Winograd and Christian Ayne Crouch. New York, Portland, Hudson, Santa Fe, Annandale-on-Hudson: DelMonico Books, Portland Art Museum, BIG NDN Press, SITE Santa Fe, Bard Center for Indigenous Studies, 2025." },
       { date: "2024", title: "先住民の現代アートの到来！ (Contemporary Indigenous Art Has Arrived!)", detail: "Contemporary Art by Indigenous Peoples, Bijutsu Techo 76, no. 1102 (2024): 134–145." },
       { date: "Forthcoming", title: "“Visualizing Resistance: Reflections on Depictions of the Standing Rock Water Protector Movement.”", detail: "In Visualizing Genocide: Indigenous Interventions in Art, Archives and Museums. Ed. Yve Chavez and Nancy Marie Mithlo. New York: Routledge." },
