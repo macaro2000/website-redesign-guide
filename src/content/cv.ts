@@ -149,8 +149,8 @@ export const publications: Group[] = [
 ];
 
 export const interviews: Entry[] = [
-  { date: "2010", title: "We Love Artists: Artist in Residencies around the World", italic: true, href: "http://www.amazon.com/gp/product/4861006694", detail: "Tokyo: BNN Inc. (English and Japanese edition), 2010, 16–17.", img: "http://www.visualcultures.net/welove.jpg", imgAlt: "We Love Artists book cover" },
-  { date: "11/2009", title: "Public Art: The Monthly Art Magazine", italic: true, href: "http://www.visualcultures.net/Public%20Art%20Magazine_Korea.PDF", detail: "Korea, November 2009.", img: "http://www.visualcultures.net/publicart.jpg", imgAlt: "Public Art magazine cover" },
+  { date: "2010", title: "We Love Artists: Artist in Residencies around the World", italic: true, href: "http://www.amazon.com/gp/product/4861006694", detail: "Tokyo: BNN Inc. (English and Japanese edition), 2010, 16–17.", img: weloveAsset.url, imgAlt: "We Love Artists book cover" },
+  { date: "11/2009", title: "Public Art: The Monthly Art Magazine", italic: true, href: "http://www.visualcultures.net/Public%20Art%20Magazine_Korea.PDF", detail: "Korea, November 2009.", img: publicartAsset.url, imgAlt: "Public Art magazine cover" },
   { date: "11/6/2009", title: "The Korea Times", italic: true, href: "http://www.visualcultures.net/KoreaTimes.pdf", detail: "Arts & Living Section, November 6, 2009.", img: IMG + "Gyeonggi.jpg", imgAlt: "Korea Times article" },
 ];
 
