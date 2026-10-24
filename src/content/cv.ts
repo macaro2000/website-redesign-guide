@@ -1,3 +1,6 @@
+import publicartAsset from "@/assets/publicart.jpg.asset.json";
+import weloveAsset from "@/assets/welove.jpg.asset.json";
+
 // All text from marioacaro.net, typos and character encoding corrected.
 const IMG = "https://www.marioacaro.net/";
 
