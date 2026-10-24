@@ -106,7 +106,6 @@
 }
 @utility cv-nav-accent {
   color: var(--accent);
-  @media (min-width: 64rem) { margin-top: 1rem; }
 }
 @utility cv-eyebrow {
   font-size: 0.75rem;
