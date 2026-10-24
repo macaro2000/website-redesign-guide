@@ -43,7 +43,7 @@ export const education: Entry[] = [
 export const executive: Entry[] = [
   { date: "2021–Present", title: "Director of MFA in Studio Arts Program", italic: true, detail: "Institute of American Indian Arts" },
   { date: "2019–2020", title: "Interim Director/Curator", italic: true, detail: "Longhouse Education and Cultural Center" },
-  { date: "2015–2016", title: "Associate Director", italic: true, detail: "American Indian Program, Cornell University" },
+  { date: "2015–2016", title: "Associate Director", italic: true, detail: "American Indian and Indigenous Studies Program, Cornell University" },
   { date: "2008–2015", title: "President", italic: true, detail: "Res Artis: Worldwide Network of Art Residencies" },
 ];
 
