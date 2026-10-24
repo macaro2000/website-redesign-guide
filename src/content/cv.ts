@@ -18,7 +18,7 @@ export const person = {
   name: "Mario A. Caro",
   email: "mariocaro@visualcultures.net",
   cv: "https://www.marioacaro.net/CaroCV2020.pdf",
-  bio: "Mario A. Caro is a researcher, curator, and critic of contemporary art, having published widely on the history, theory, and criticism of contemporary Indigenous arts. His work within the academy complements his engagements with Indigenous communities to focus on community-led art production and exhibition practices.",
+  bio: "Dr. Mario A. Caro is a researcher, curator, and critic of contemporary art, having published widely on the history, theory, and criticism of contemporary Indigenous arts. His work within the academy complements his engagements with Indigenous communities to focus on community-led art production and exhibition practices.",
   roles: [
     { title: "Former President and Honorary Member", org: "Res Artis", href: "http://resartis.org/en/", img: IMG + "signature%20bug.gif" },
     { title: "Core Organizer of Caribbean Cultural Platform; Member of the Board", org: "Tilting Axis", href: "https://tiltingaxis.org/", img: IMG + "tilting%20axis_300.png" },
