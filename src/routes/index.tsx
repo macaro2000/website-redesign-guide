@@ -125,7 +125,12 @@ function Section({ id, title, children }: { id: string; title: string; children:
 
 function Index() {
   return (
-    <div className="mx-auto max-w-6xl px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-16 lg:px-10">
+    <div className="mx-auto max-w-6xl px-6 lg:px-10">
+      <header className="cv-masthead">
+        <h1 className="cv-name">Mario A. Caro</h1>
+      </header>
+
+      <div className="lg:grid lg:grid-cols-[13rem_1fr] lg:gap-16">
       <aside className="cv-nav">
         <nav aria-label="Sections" className="cv-nav-list">
           {sections.map((s) => (
@@ -140,11 +145,8 @@ function Index() {
       </aside>
 
       <main className="pb-32">
-        <section id="about" className="cv-section pt-16 lg:pt-28">
-          <h1 className="text-4xl font-light tracking-tight text-foreground md:text-5xl">
-            Mario A. Caro
-          </h1>
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-foreground">{person.bio}</p>
+        <section id="about" className="cv-section pt-10 lg:pt-[4.5rem]">
+          <p className="max-w-2xl text-lg leading-relaxed text-foreground">{person.bio}</p>
           <p className="mt-6 text-sm">
             <a href={`mailto:${person.email}`} className="cv-link">
               {person.email}
@@ -190,6 +192,7 @@ function Index() {
           <a href={`mailto:${person.email}`} className="cv-link">{person.email}</a>
         </footer>
       </main>
+      </div>
     </div>
   );
 }
