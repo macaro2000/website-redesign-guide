@@ -63,16 +63,24 @@ function MaybeLink({ href, children }: { href?: string | undefined; children: Re
   );
 }
 
+function Rich({ text }: { text: string }) {
+  return (
+    <>
+      {text.split("*").map((part, i) => (i % 2 === 1 ? <em key={i}>{part}</em> : part))}
+    </>
+  );
+}
+
 function Row({ e }: { e: Entry }) {
   return (
     <li className="cv-row">
       <div className="cv-date">{e.date}</div>
       <div className="cv-body">
         <p className={e.italic ? "italic" : undefined}>
-          <MaybeLink href={e.href}>{e.title}</MaybeLink>
+          <MaybeLink href={e.href}><Rich text={e.title} /></MaybeLink>
         </p>
-        {e.detail && <p className="text-muted-foreground">{e.detail}</p>}
-        {e.note && <p className="mt-1 text-muted-foreground">{e.note}</p>}
+        {e.detail && <p className="text-muted-foreground"><Rich text={e.detail} /></p>}
+        {e.note && <p className="mt-1 text-muted-foreground"><Rich text={e.note} /></p>}
         {e.img && (
           <MaybeLink href={e.href}>
             <img src={e.img} alt={e.imgAlt ?? ""} loading="lazy" className="cv-thumb" />
