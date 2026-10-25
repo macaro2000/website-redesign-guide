@@ -1,6 +1,6 @@
 # Website Redesign Guide
 
-I have a web page that I'd like to redesign. Should I provide a URL or access to the files themselves?
+Redesign of my personal webpage.
 
 This project was built with [Lovable](https://lovable.dev).
 
