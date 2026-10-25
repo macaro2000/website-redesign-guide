@@ -1,3 +1,4 @@
+import caroCvAsset from "@/assets/CaroCV2021.pdf.asset.json";
 import publicartAsset from "@/assets/publicart.jpg.asset.json";
 import weloveAsset from "@/assets/welove.jpg.asset.json";
 
@@ -20,7 +21,7 @@ export type Group = { heading?: string; entries: Entry[] };
 export const person = {
   name: "Mario A. Caro",
   email: "mariocaro@visualcultures.net",
-  cv: "https://www.marioacaro.net/CaroCV2020.pdf",
+  cv: caroCvAsset.url,
   bio: "Dr. Mario A. Caro is a researcher, curator, and critic of contemporary art, having published widely on the history, theory, and criticism of contemporary Indigenous arts. His work within the academy complements his engagements with Indigenous communities to focus on community-led art production and exhibition practices.",
   roles: [
     { title: "Former President and Honorary Member", org: "Res Artis", href: "http://resartis.org/en/", img: IMG + "signature%20bug.gif" },
