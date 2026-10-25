@@ -1,6 +1,3 @@
-import caroCvAsset from "@/assets/CaroCV2021.pdf.asset.json";
-import publicartAsset from "@/assets/publicart.jpg.asset.json";
-import weloveAsset from "@/assets/welove.jpg.asset.json";
 
 // All text from marioacaro.net, typos and character encoding corrected.
 const IMG = "https://www.marioacaro.net/";
@@ -21,7 +18,7 @@ export type Group = { heading?: string; entries: Entry[] };
 export const person = {
   name: "Mario A. Caro",
   email: "mariocaro@visualcultures.net",
-  cv: caroCvAsset.url,
+  cv: "/Mario-A-Caro-CV.pdf",
   bio: "Dr. Mario A. Caro is a researcher, curator, and critic of contemporary art, having published widely on the history, theory, and criticism of contemporary Indigenous arts. His work within the academy complements his engagements with Indigenous communities to focus on community-led art production and exhibition practices.",
   roles: [
     { title: "Former President and Honorary Member", org: "Res Artis", href: "http://resartis.org/en/", img: IMG + "signature%20bug.gif" },
@@ -150,8 +147,8 @@ export const publications: Group[] = [
 ];
 
 export const interviews: Entry[] = [
-  { date: "2010", title: "We Love Artists: Artist in Residencies around the World", italic: true, href: "http://www.amazon.com/gp/product/4861006694", detail: "Tokyo: BNN Inc. (English and Japanese edition), 2010, 16–17.", img: weloveAsset.url, imgAlt: "We Love Artists book cover" },
-  { date: "11/2009", title: "Public Art: The Monthly Art Magazine", italic: true, href: "http://www.visualcultures.net/Public%20Art%20Magazine_Korea.PDF", detail: "Korea, November 2009.", img: publicartAsset.url, imgAlt: "Public Art magazine cover" },
+  { date: "2010", title: "We Love Artists: Artist in Residencies around the World", italic: true, href: "http://www.amazon.com/gp/product/4861006694", detail: "Tokyo: BNN Inc. (English and Japanese edition), 2010, 16–17.", img: "/welove.jpg", imgAlt: "We Love Artists book cover" },
+  { date: "11/2009", title: "Public Art: The Monthly Art Magazine", italic: true, href: "http://www.visualcultures.net/Public%20Art%20Magazine_Korea.PDF", detail: "Korea, November 2009.", img: "/publicart.jpg", imgAlt: "Public Art magazine cover" },
   { date: "11/6/2009", title: "The Korea Times", italic: true, href: "http://www.visualcultures.net/KoreaTimes.pdf", detail: "Arts & Living Section, November 6, 2009.", img: IMG + "Gyeonggi.jpg", imgAlt: "Korea Times article" },
 ];
 
