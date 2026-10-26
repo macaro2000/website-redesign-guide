@@ -278,7 +278,6 @@ export const languages =
   "Fluent in Spanish; reading knowledge of French, Dutch, and German. Learning Japanese.";
 
 export const sections = [
-  { id: "about", label: "About" },
   { id: "education", label: "Education" },
   { id: "executive", label: "Executive" },
   { id: "curating", label: "Curating" },
