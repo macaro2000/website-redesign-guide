@@ -169,9 +169,8 @@
 @utility cv-thumb {
   display: block;
   margin-top: 0.9rem;
-  max-height: 7.5rem;
-  max-width: 9rem;
-  width: auto;
+  width: 135px;
+  height: auto;
   object-fit: contain;
   border: 1px solid var(--rule);
   filter: saturate(0.85);
