@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Store recovered CV images through Lovable Assets and resolve their pointers against an absolute asset origin, so external Cloudflare hosting does not depend on the old website or a local asset proxy.
