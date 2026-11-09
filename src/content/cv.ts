@@ -10,7 +10,7 @@ export type Entry = {
   href?: string;
   detail?: string;
   note?: string;
-  img?: string;
+  img?: string | undefined;
   imgAlt?: string;
 };
 
