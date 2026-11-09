@@ -1,6 +1,7 @@
 
+import { cvImages } from "./cv-images";
+
 // All text from marioacaro.net, typos and character encoding corrected.
-const IMG = "https://www.marioacaro.net/";
 
 export type Entry = {
   date?: string;
