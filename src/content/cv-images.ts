@@ -18,6 +18,7 @@ import image16 from "@/assets/cv/cultural.jpg.asset.json";
 import image17 from "@/assets/cv/withinthecircle.jpg.asset.json";
 import image18 from "@/assets/cv/gyeonggi.jpg.asset.json";
 import image19 from "@/assets/cv/bijutsu-techo-2024.webp.asset.json";
+import image20 from "@/assets/cv/jeffrey-gibson-2025.jpg.asset.json";
 
 // Absolute asset addresses also work when this project is hosted on Cloudflare.
 const ASSET_ORIGIN = "https://id-preview--e0abf544-2eab-4a1f-91f4-d84f011ebccd.lovable.app";
@@ -46,4 +47,5 @@ export const cvImages: Record<string, string> = {
   "withinthecircle.jpg": storedImageUrl(image17.url),
   "Gyeonggi.jpg": storedImageUrl(image18.url),
   "bijutsu-techo-2024.webp": storedImageUrl(image19.url),
+  "jeffrey-gibson-2025.jpg": storedImageUrl(image20.url),
 };
